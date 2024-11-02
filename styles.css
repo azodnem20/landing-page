@@ -1,13 +1,21 @@
-body    {
+body {
     display: flex;
     flex-direction: column;
 }
 
-.header {   
-    display: flex;
-    justify-content: space-between;
+.header {
+    font-style: monospace;
+    background-color: #1F2937;
 }
 
-.right-header   {
-   
+.welcome    {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}   
+
+.second-text  {
+    font-size: 18px;
+    color: #E5E7EB;
+
 }
