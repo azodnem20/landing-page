@@ -1,45 +1,110 @@
 body {
+    height: 100vh;
+    font: "Roboto Mono";
     display: flex;
     flex-direction: column;
     margin: 0;
-
 }
 
 .header {
-    font: 'Roboto Mono';
-    background-color: #1f2937;
-    padding: 12px 36px 36px 24px;
-}   
-
-.top-header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
-
-.right-links    {
+.top,.information,.quote {
+    padding: 60px;
+}
+.information {
     display: flex;
-    gap: 12px;
-    list-style-type: none;
+    flex-direction: column;
 }
 
-.main-text {
+.main-info {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+}
+
+.info img { 
+    width: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-link  {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+li { 
+    text-decoration: none;
+}
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0px;
+}
+
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.rec img  {
+    width: 350px;
+}
+
+.top,.footer {
+    background-color: #1f2937;
+}
+
+.title  {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
 
-.sub-text {
-    color: #e5e7eb;
+.sub-title, .head-link {
     font-size: 18px;
+    color: #e5e7eb;
 }
 
-.head-text {
+.main-head  {
     font-size: 24px;
     color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 4px;
 
 }
 
-.main-info  {
+.blue {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.time {
+    padding: 150px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    color:#e5e7eb ;
+}
+.main-info {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
@@ -48,21 +113,17 @@ body {
 .quote  {
     background-color: #e5e7eb;
 }
-
 .main-quote {
+    background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
 }
 
-.container  {
-    background-color: #3882f6;
+.call {
+    color:#f9faf8 ;
 }
 
-.footer {
-    background-color: #1f2937;
-}   
-
-button  {
-   background-color:#3882f6 ;
+.info {
+    text-align: center;
 }
